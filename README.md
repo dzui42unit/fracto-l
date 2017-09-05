@@ -17,6 +17,10 @@ displays a list of available parameters and exits.
 
 How to compile: gcc *.c -lmlx -lXext -lX11 -L ./libmlx/ -I ./libmlx/ -lm -pthread
 
+Usage: ./a.out Mandelbrot
+Usage: ./a.out Julia
+Usage: ./a.out Ships
+
 # Mandelbrot set:
 
 ![mandelbrot](https://user-images.githubusercontent.com/28359156/30073918-3ad47adc-9278-11e7-9fae-6af17dbb54f0.png)
